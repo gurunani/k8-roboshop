@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
       - name: payment
-        image: 9eguru/payment:v1
+        image: joindevops/payment:v1
         envFrom:
         - configMapRef:
             name: payment
